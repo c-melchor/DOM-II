@@ -70,6 +70,7 @@ document.addEventListener('keyup', function(event){
         escapeAll.style.backgroundColor='white'
         signMeUp.style.backgroundColor='#17A2B8'
         signMeUp.style.color='white'
+        funBusHeader.textContent='Welcome To Fun Bus!'
     }
 })
 
@@ -82,3 +83,5 @@ selectButton.addEventListener('drag', function(){
 
 
 document.getElementById('nav').addEventListener('click', (event)=> event.preventDefault())
+
+
