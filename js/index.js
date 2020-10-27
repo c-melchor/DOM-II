@@ -79,3 +79,6 @@ const selectButton = document.querySelector('nav a')
 selectButton.addEventListener('drag', function(){
     alert(`you have dragged the home button`)
 })
+
+
+document.getElementById('nav').addEventListener('click', (event)=> event.preventDefault())
